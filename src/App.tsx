@@ -6,8 +6,10 @@ import { AccountSummary } from "./components/AccountSummary";
 import { TransactionHistory } from "./components/TransactionHistory";
 import { AddTransaction } from "./components/AddTransaction";
 import { GlobalProvider } from "./context/GlobalState";
+import { initNotification } from "./services/firebase-service";
 
 function App() {
+  initNotification();
   return (
     <GlobalProvider>
       <Header />
