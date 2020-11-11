@@ -1,5 +1,5 @@
 import React, { createContext, useReducer } from "react";
-import AppReducer from "./AppReducer";
+import { AppReducer } from "./AppReducer";
 import { TransactionsType, InitialStateType, ContextType } from "../types/Types";
 
 // Initial State

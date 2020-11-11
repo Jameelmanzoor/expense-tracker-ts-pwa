@@ -1,6 +1,6 @@
 import { InitialStateType } from "../types/Types";
 
-export default (state: InitialStateType , action: any) => {
+export const AppReducer =  (state: InitialStateType , action: any) => {
   switch (action.type) {
     case 'DELETE_TRANSACTION':
       return {
